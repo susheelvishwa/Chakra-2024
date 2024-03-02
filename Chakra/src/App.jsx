@@ -4,6 +4,7 @@ import Boxx from "./components/box";
 import Sudoclasses from "./components/Darklightmode";
 import Usecolormode from "./components/Usecolormode";
 import Darklightmode from "./components/Usecolormode";
+import Component from './components/Component';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Testing /> */}
       {/* <Boxx /> */}
       {/* <Sudoclasses /> */}
-      <Darklightmode />
+      {/* <Darklightmode /> */}
+      <Component/>
     </>
   );
 }
